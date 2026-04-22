@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestFlow | My Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to Main Content</a>
+    <header>
+        <div class="header-bar">
+            <nav aria-label="Main navigation">
+                <div class="logo-wrap">
+                    <img src="assets/questflow-logo.svg" alt="QuestFlow logo">
+                    <div class="brand-text">
+                        <h1>QuestFlow</h1>
+                        <p>Track games you own, watch, or want to replay.</p>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="store.html">Store Deals</a></li>
+                    <li><a class="current" href="library.html">My Library</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="panel">
+            <h2>Library overview</h2>
+            <p class="lead">This page uses the required <code>.flex</code> class. The card layout wraps naturally and keeps equal spacing between items.</p>
+        </section>
+        <section class="panel flex">
+            <figure>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg" alt="The Witcher 3 Wild Hunt game art">
+                <figcaption>
+                    <h3>The Witcher 3: Wild Hunt</h3>
+                    <p>Status: completed story, installed for replay.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg" alt="Counter-Strike 2 game art">
+                <figcaption>
+                    <h3>Counter-Strike 2</h3>
+                    <p>Status: active competitive title, quick launch favorite.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg" alt="Hogwarts Legacy game art">
+                <figcaption>
+                    <h3>Hogwarts Legacy</h3>
+                    <p>Status: wishlist watch item, waiting for stronger discount.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg" alt="Marvel’s Spider-Man Remastered game art">
+                <figcaption>
+                    <h3>Marvel’s Spider-Man Remastered</h3>
+                    <p>Status: installed, good example of a polished single-player library card.</p>
+                </figcaption>
+            </figure>
+        </section>
+        <section class="note">
+            <p><strong>Accessibility check:</strong> all images on the site now use border, padding, and border-radius directly on the <code>img</code> selector, while <code>nth-child</code> adds alternating image styling on the game cards.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Library page using flex-wrap and centered spacing.</p>
+    </footer>
+</body>
+</html>

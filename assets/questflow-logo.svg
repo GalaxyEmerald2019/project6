@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">QuestFlow logo</title>
+  <desc id="desc">Stylized game controller with a glowing Q letter.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#54f2c7" />
+      <stop offset="100%" stop-color="#5b7cff" />
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="136" height="136" rx="34" fill="#101726"/>
+  <path d="M48 70c0-11 9-20 20-20h24c11 0 20 9 20 20v11c0 11-9 20-20 20H82l-8 9-8-9H68c-11 0-20-9-20-20V70z" fill="url(#bg)" opacity="0.95"/>
+  <path d="M77 63c-12 0-21 8-21 19s9 19 21 19c3 0 6-1 9-2l5 5 7-7-4-4c3-4 4-8 4-11 0-11-9-19-21-19zm0 8c7 0 12 5 12 11 0 2-1 5-2 7l-4-4-7 7 4 4c-1 0-2 0-3 0-7 0-12-5-12-11s5-14 12-14z" fill="#08111f"/>
+  <circle cx="55" cy="78" r="5" fill="#08111f"/>
+  <circle cx="105" cy="78" r="5" fill="#08111f"/>
+</svg>
